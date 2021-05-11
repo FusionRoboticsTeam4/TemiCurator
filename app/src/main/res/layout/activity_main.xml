@@ -15,7 +15,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="64dp"
         android:fontFamily="sans-serif"
-        android:text="Welcome my dear team members!"
+        android:text="Welcome my team members!"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="36sp"
         android:textStyle="bold"
