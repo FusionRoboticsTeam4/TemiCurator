@@ -13,7 +13,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:fontFamily="sans-serif"
-        android:text="Floors information can be displayed here"
+        android:text="Rooms information can be displayed here"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="36sp"
         android:textStyle="bold"
@@ -31,14 +31,14 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/welcome"
         android:layout_alignParentStart="true"
-        android:text="Floors can be clickable (button) to open that floors page in detail!"
+        android:text="Rooms can be clickable (button) to open that floors page in detail!"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/welcome" />
 
     <Button
-        android:id="@+id/buttonFirstFloor"
+        android:id="@+id/buttonFirstRoom"
         android:layout_width="match_parent"
         android:layout_height="110dp"
         android:layout_below="@+id/textView3"
@@ -47,7 +47,17 @@
         android:layout_marginStart="0dp"
         android:layout_marginTop="303dp"
         android:layout_marginEnd="0dp"
-        android:text="First Floor" />
+        android:text="First Room" />
+
+    <Button
+        android:id="@+id/buttonSecondRoom"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_below="@+id/buttonFirstRoom"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        android:text="Second Room" />
 
 
 </RelativeLayout>

@@ -9,7 +9,8 @@ import android.widget.Button;
 
 public class AllFloorsActivity extends AppCompatActivity {
 
-    private Button button1F;
+    private Button button1R;
+    private Button button2R;
 
 
     @Override
@@ -17,9 +18,18 @@ public class AllFloorsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_all_floors);
 
-        button1F = (Button) findViewById(R.id.buttonFirstFloor);
+        button1R = (Button) findViewById(R.id.buttonFirstRoom);
 
-        button1F.setOnClickListener(new View.OnClickListener() {
+        button1R.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openFirstFloorActivity();
+            }
+        });
+
+        button2R = (Button) findViewById(R.id.buttonSecondRoom);
+
+        button2R.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 openFirstFloorActivity();
