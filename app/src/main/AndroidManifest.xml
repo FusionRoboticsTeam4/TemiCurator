@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Team4Robotics">
-        <activity android:name=".ArtWorkInformation"></activity>
+        <activity android:name=".SecondRoomActivity"></activity>
+        <activity android:name=".FirstRoomActivity" />
+        <activity android:name=".ArtWorkInformation" />
         <activity android:name=".FirstFloorActivity" />
         <activity android:name=".AllFloorsActivity" />
         <activity android:name=".MainActivity">

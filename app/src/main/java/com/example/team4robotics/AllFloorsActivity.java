@@ -23,7 +23,8 @@ public class AllFloorsActivity extends AppCompatActivity {
         button1R.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openFirstFloorActivity();
+
+                openFirstRoomActivity();
             }
         });
 
@@ -32,13 +33,18 @@ public class AllFloorsActivity extends AppCompatActivity {
         button2R.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openFirstFloorActivity();
+
+                openSecondRoomActivity();
             }
         });
     }
 
-    private void openFirstFloorActivity() {
-        Intent intent = new Intent(this, FirstFloorActivity.class);
+    private void openFirstRoomActivity() {
+        Intent intent = new Intent(this, FirstRoomActivity.class);
+        startActivity(intent);
+    }
+    private void openSecondRoomActivity() {
+        Intent intent = new Intent(this, SecondRoomActivity.class);
         startActivity(intent);
     }
 }
