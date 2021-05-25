@@ -11,9 +11,7 @@ import java.security.PrivateKey;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button buttonE;
-    private Button buttonK;
-    private Button buttonF;
+    private Button buttonW;
 
 
     @Override
@@ -21,32 +19,20 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        buttonE = (Button) findViewById(R.id.buttonEnglish);
-        buttonK = (Button) findViewById(R.id.buttonKorean);
-        buttonF = (Button) findViewById(R.id.buttonFrench);
 
-        buttonE.setOnClickListener(new View.OnClickListener() {
+        buttonW = (Button) findViewById(R.id.buttonWelcome);
+
+        buttonW.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 openAllFloorsActivity();
             }
         });
-        buttonK.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                openAllFloorsActivity();
-            }
-        });
-        buttonF.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                openAllFloorsActivity();
-            }
-        });
+
     }
     public void openAllFloorsActivity() {
 
-        Intent intent = new Intent(this, AllFloorsActivity.class);
+        Intent intent = new Intent(this, LanguageActivity.class);
         startActivity(intent);
     }
 }
