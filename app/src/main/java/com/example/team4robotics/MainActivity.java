@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void openAllFloorsActivity() {
 
-        Intent intent = new Intent(this, LanguageActivity.class);
+        Intent intent = new Intent(this, AllFloorsActivity.class);
         startActivity(intent);
     }
 }

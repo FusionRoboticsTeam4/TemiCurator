@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Team4Robotics">
-        <activity android:name=".LanguageActivity"></activity>
         <activity android:name=".SecondRoomActivity" />
         <activity android:name=".FirstRoomActivity" />
         <activity android:name=".ArtWorkInformation" />
