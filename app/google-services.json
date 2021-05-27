@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1050586179145",
+    "project_id": "temi-44ac3",
+    "storage_bucket": "temi-44ac3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050586179145:android:f8125492d5bc1263a14198",
+        "android_client_info": {
+          "package_name": "com.example.team4robotics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050586179145-he6etumqs8j52m4uhu058jk2h7cralch.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.team4robotics",
+            "certificate_hash": "6c1726ddd4d9b6f1c25b0b31c17f9297ba2ee6b1"
+          }
+        },
+        {
+          "client_id": "1050586179145-j12q3hl2unjm7nfqg8agfbima27mhtr7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqMtlsK5hM1ZIZFUm1-ok4UySbaFt8HWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050586179145-j12q3hl2unjm7nfqg8agfbima27mhtr7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
