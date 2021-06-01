@@ -20,7 +20,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="36sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintBottom_toTopOf="@+id/roomCrowd"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -29,15 +29,15 @@
         tools:text="관람 할 곳 선택" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/roomCrowd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/welcome"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="130dp"
-        android:layout_marginTop="0dp"
+        android:layout_marginStart="570dp"
+        android:layout_marginTop="108dp"
         android:gravity="center"
-        android:text="Room choice"
+        android:text="Loading.."
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,11 +47,11 @@
         android:id="@+id/buttonFirstRoom"
         android:layout_width="match_parent"
         android:layout_height="110dp"
-        android:layout_below="@+id/textView3"
+        android:layout_below="@+id/roomCrowd"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="0dp"
-        android:layout_marginTop="303dp"
+        android:layout_marginTop="203dp"
         android:layout_marginEnd="0dp"
         android:text="First Room" />
 
